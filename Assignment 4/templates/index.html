@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1 class="mb-4">Vampire App</h1>
+
+    <h2 class="mb-3">Add Classmate</h2>
+    <form action="" method="POST" class="mb-4">
+        {{ form.csrf_token }}
+        <div class="form-group">
+            {{ form.name.label }} {{ form.name(class_="form-control") }}
+        </div>
+        <div class="form-check">
+            {{ form.no_shadow(class_="form-check-input") }} {{ form.no_shadow.label(class_="form-check-label") }}
+        </div>
+        <div class="form-check">
+            {{ form.pale_complexion(class_="form-check-input") }} {{ form.pale_complexion.label(class_="form-check-label") }}
+        </div>
+        <div class="form-check">
+            {{ form.no_garlic(class_="form-check-input") }} {{ form.no_garlic.label(class_="form-check-label") }}
+        </div>
+        {{ form.submit(class_="btn btn-primary mt-3") }}
+    </form>
+
+    <h2 class="mb-3">Data Processing Method</h2>
+    <form action="" method="POST" class="mb-4">
+        {{ dp_form.csrf_token }}
+        <div class="form-group">
+            {{ dp_form.data_processing_method.label }} {{ dp_form.data_processing_method(class_="form-select") }}
+        </div>
+        {{ dp_form.submit(class_="btn btn-primary mt-3") }}
+    </form>
+
+    <h2 class="mb-3">Pie Chart</h2>
+    <img src="/static/pie_chart.png" alt="Pie Chart" class="img-fluid">
+{% endblock %}
