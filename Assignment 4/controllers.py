@@ -1,6 +1,8 @@
 import pandas as pd
 import random
 from models import read_classmate_data, write_classmate_data
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 def process_data(form):
