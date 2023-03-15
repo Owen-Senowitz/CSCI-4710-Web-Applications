@@ -25,7 +25,7 @@
     <form action="" method="POST" class="mb-4">
         {{ dp_form.csrf_token }}
         <div class="form-group">
-            {{ dp_form.data_processing_method.label }} {{ dp_form.data_processing_method(class_="form-select") }}
+            {{ dp_form.data_processing_method(class_="form-select") }}
         </div>
         {{ dp_form.submit(class_="btn btn-primary mt-3") }}
     </form>
