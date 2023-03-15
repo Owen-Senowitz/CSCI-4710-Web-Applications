@@ -32,4 +32,29 @@
 
     <h2 class="mb-3">Pie Chart</h2>
     <img src="/static/pie_chart.png" alt="Pie Chart" class="img-fluid">
+
+    <div class="container">
+        <h2>Classmate Data</h2>
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Shadow</th>
+              <th>Complexion</th>
+              <th>No Garlic</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for classmate in classmates %}
+            <tr>
+              <td>{{ classmate['Name'] }}</td>
+              <td>{{ classmate['No Shadow'] }}</td>
+              <td>{{ classmate['Pale Complexion'] }}</td>
+              <td>{{ classmate['No Garlic'] }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      
 {% endblock %}
