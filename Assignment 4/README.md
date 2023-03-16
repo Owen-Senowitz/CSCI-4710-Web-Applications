@@ -13,3 +13,6 @@ Required:
  Flask WTF  
  Pandas  
  Matplotlib  
+
+Start server
+run app.py within the terminal directory to start server locally and click on IP
