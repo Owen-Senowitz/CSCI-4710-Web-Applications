@@ -9,7 +9,7 @@ Abanoub Safwat Alfy Attalla
 
 
 Required:
- Flask
- Flask WTF
- Pandas
- Matplotlib
+ Flask  
+ Flask WTF  
+ Pandas  
+ Matplotlib  
