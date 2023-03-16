@@ -1,18 +1,18 @@
 # Assignment 4
-Team members:  
+<H3>Team members:  
 
-Owen Senowitz  
+<H4>Owen Senowitz  
 
 James Kinlaw  
 
 Abanoub Safwat Alfy Attalla  
 
 
-Required:
- Flask  
+<H3>Required:  
+ <H4>Flask  
  Flask WTF  
  Pandas  
  Matplotlib  
 
-Start server
-run app.py within the terminal directory to start server locally and click on IP
+<H1>Start server:  
+<H4>run app.py within the terminal directory to start server locally and click on IP
