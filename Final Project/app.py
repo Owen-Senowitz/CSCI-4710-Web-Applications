@@ -11,6 +11,9 @@ def home():
         data = json.load(f)
     return render_template('home.html', data=data)
 
+@app.route('/Final Project/templates/teaminfo.html')
+def teaminfo():
+    return render_template('teaminfo.html')
 
 @app.route('/new_post', methods=['GET', 'POST'])
 def new_post():
