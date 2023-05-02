@@ -22,7 +22,7 @@ def new_post():
         with open('blog_data.json', 'r') as f:
             data = json.load(f)
 
-        # Add the new post to the list:
+        # Add the new post to the list
         new_post = {
             'title': request.form['title'],
             'content': request.form['content'],
