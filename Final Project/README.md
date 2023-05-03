@@ -1,11 +1,11 @@
 # Final Project
 <H3>Team members:  
 
-<H4>Owen Senowitz  
+<H4>Owen Senowitz:
 
-James Kinlaw  
+James Kinlaw:kinlawj19@students.ecu.edu
 
-Abanoub Safwat Alfy Attalla  
+Abanoub Safwat Alfy Attalla:
 
 
 <H3>Required:  
